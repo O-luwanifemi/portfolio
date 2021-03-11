@@ -1,0 +1,412 @@
+/* main-bg-color: hsl(210deg, 30%, 8%) */
+/* text-color: hsl(0deg, 0%, 100%) */
+/* footer-bg-color: hsl(210deg, 30%, 8%) */
+/* font-family: 'Poppins', sans-serif; */
+
+:root {
+  font-size: .625rem;
+}
+
+*,
+*::before,
+*::after,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-size: 1.7rem;
+  overflow-x: hidden;
+  background-color: rgba(82, 82, 55, 0.981);
+  color: hsl(0deg, 0%, 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_header {
+  display: flex;
+  height: 42vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: -5px;
+}
+
+.header_content_parent {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand .logo {
+  width: 25px;
+  height: 25px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.857);
+  border-radius: 50%;
+  color: aqua;
+}
+
+.brand .brand_name {
+  font-size: 1.7rem;
+  color: burlywood;
+  background-color: rgba(0, 0, 0, 0.652);
+  line-height: 2;
+  padding: 2px 16px;
+  margin-left: -1rem;
+  border-radius: 4px;
+}
+
+nav > .nav-list {
+  display: flex;
+}
+
+nav .nav-list > li {
+  margin-right: 2em;
+}
+
+nav .nav-list .active {
+  padding-bottom: .3em;
+  border-bottom: 2px solid burlywood;
+}
+
+nav .nav-list li > a,
+nav .nav-list li > a:link,
+nav .nav-list li > a:focus,
+nav .nav-list li > a:visited {
+  display: inline-block;
+  color: hsl(0deg, 0%, 100%);
+  transition: all .35s ease-in-out;
+}
+
+nav .nav-list li > a:hover {
+  padding-bottom: .3em;
+  border-bottom: 2px solid burlywood;
+}
+
+.clip-path-parent {
+  margin-top: 80px;
+}
+
+.clip-path {
+  fill: hsl(210deg, 30%, 8%);
+}
+
+
+
+main {
+  background-color: hsl(210deg, 30%, 8%);
+  height: auto;
+  margin-top: -8px;
+  font-size: 1.7rem;
+  padding-bottom: 3em;
+}
+
+#hero {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.cta {
+  font-size: 1.6rem;
+  word-spacing: .1em;
+  line-height: 2.5;
+}
+
+.cta > h1 {
+  font-size: 5rem;
+  letter-spacing: .15em;
+  color: rgb(94, 106, 211);
+}
+
+.btns {
+  margin-top: 1.5em;
+}
+
+.btns > a,
+.btns > a:link,
+.btns > a:focus,
+.btns > a:visited {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid burlywood;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.btns > a:hover {
+  border: 2px solid rgb(94, 106, 211);
+  color: silver;
+}
+
+.btns > a:first-child {
+  margin-right: 5px;
+}
+
+.btns > a:nth-child(2) {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#hero > figure {
+  margin-right: -4em;
+  width: 50%;
+}
+
+
+.about_start {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 2;
+  margin-top: 2em;
+}
+
+.about_start > h2,
+#portfolio > h2 {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 3rem;
+  border-bottom: 3px dotted rgba(255, 105, 180, 0.775);
+}
+
+.about_start > p {
+  margin-top: 1em;
+}
+
+.skills {
+  margin-top: 1.5em;
+}
+
+.cards {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: .4em;
+}
+
+.cards > figure {
+  width: 7%;
+}
+
+.cards > figure:not(:last-child) {
+  margin-right: .7em;
+}
+
+
+#portfolio {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4em;
+}
+
+#portfolio > h2 {
+  word-spacing: .5em;
+  padding-bottom: .3em;
+}
+
+.projects_brief {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2em;
+  position: relative;
+  margin-top: .5em;
+}
+
+.projects_brief > a {
+  width: 30em;
+  height: 165px;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  position: relative;
+  background-color: sandybrown;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.projects_brief > a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.projects_brief a > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.projects_brief a > .img-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  line-height: 10;
+  position: absolute;
+  top: 0;
+  background-color: #dc3546e5;
+  display: none;
+}
+
+.img-overlay > h4 {
+  color: burlywood;
+}
+
+.projects_brief a:hover > .img-overlay {
+  display: block;
+}
+
+
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.624);
+  padding: 3em 0;
+}
+
+.left-right-parent {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 60%;
+}
+
+.left .text {
+  line-height: 2;
+}
+
+.left .text > h3 {
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+
+.left .text > p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.344);
+}
+
+form {
+  margin-top: 1.2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs .left {
+  width: 45%;
+}
+
+.inputs .right {
+  width: 50%;
+}
+
+.inputs label {
+  font-size: 1.3rem;
+  color: burlywood;
+}
+
+#input_text,
+#textarea {
+  border: none;
+  outline: none;
+  margin-bottom: 1.4em;
+  border-bottom: 3px solid burlywood;
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  color: hsl(0deg, 0%, 100%);
+  padding: 0 0 5px 0;
+  min-height: 2.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#textarea {
+  resize: none;
+}
+
+form > .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: .5em;
+}
+
+form .btn > button {
+  outline: none;
+  background-color: transparent;
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid burlywood;
+  width: 30%;
+  padding: 12px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+form .btn > button:hover {
+  border: 2px solid rgb(94, 106, 211);
+  color: silver;
+  cursor: pointer;
+}
+
+
+
+.right > p {
+  color: burlywood;
+  font-size: 1.3rem;
+  line-height: 4;
+  text-align: center;
+}
+
+.sms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sms a:not(:last-child) {
+  margin-right: 25px;
+}
+
+.sms a:hover {
+  color: aquamarine;
+}
+
+.sms a > img {
+  width: 25px;
+}
+
+footer > p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.748);
+  margin-top: 4em;
+}
