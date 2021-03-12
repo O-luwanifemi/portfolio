@@ -978,7 +978,7 @@ footer > p {
   }
   
   .cta > h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: .2em;
     margin-bottom: 0;
   }
@@ -1015,7 +1015,7 @@ footer > p {
   .about_start {
     text-align: center;
     width: 90%;
-    margin-top: -50px;
+    margin-top: -40px;
   }
 
   .about_start > h2 {
