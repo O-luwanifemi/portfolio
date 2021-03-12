@@ -1,7 +1,6 @@
-/* main-bg-color: hsl(210deg, 30%, 8%) */
-/* text-color: hsl(0deg, 0%, 100%) */
-/* footer-bg-color: hsl(210deg, 30%, 8%) */
-/* font-family: 'Poppins', sans-serif; */
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   font-size: .625rem;
@@ -1129,19 +1128,3 @@ footer > p {
     font-size: 1.3rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-/* - LG - max-width: 992px - */
-/* @media (min-width: 992px) and (max-width: 1199px) { */
-
-/* - XL - min-width: 1200px - */
-/* @media (min-width: 1200px) { */
