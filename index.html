@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"rel="stylesheet">
+    <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- MY CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Home | Code_shuga</title>
   </head>
 
-  <body onload="triggerTypewriter()">
+  <body>
     <header class="main_header">
       <!-- BRAND SIDE -->
       <section class="header_content_parent">
@@ -51,8 +54,17 @@
         <section id="hero">
           <section class="cta">
             <h1 class="animate__animated animate__pulse animate__slow animate__infinite	infinite">NIFEMI</h1>
-  
-            <p id="typedtext"></p>
+            
+            <p>
+              Hi, my name is Oluwanifemi Rashid.
+            </p>
+
+            <p class="strings">
+              <p>
+                I am a Software Engineer, <span class="typer"></span>
+              </p> 
+            </p>
+            <!-- <span id="typer"></span> -->
   
             <div class="btns">
               <a href="#portfolio" role="button">Checkout Portfolio</a>
@@ -196,12 +208,31 @@
     </footer>
 
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- TYPED JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- WOW JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
-    <script src="./assets/js/script.js"></script>
+
+    <!-- JQUERY -->
+    <script>
+      var typed = new Typed('.typer', {
+        strings: [
+          'and I bring ideas to life with codes.', 
+          'and I solve life problems.',
+          'and I make users happy.'
+        ],
+        typeSpeed: 60,
+        backSpeed: 30,
+        smartBackspace: false,
+        backDelay: 1000,
+        loop: true,
+        loopCount: Infinity,
+      });
+    </script>
 
   </body>
   
