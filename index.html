@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <script defer src="./assets/js/script.js"></script>
     <title>Home | Code_shuga</title>
   </head>
 
-  <body>
+  <body onload="triggerTypewriter()">
     <header class="main_header">
       <!-- BRAND SIDE -->
       <section class="header_content_parent">
@@ -49,9 +51,9 @@
       <section class="hero-parent">
         <section id="hero">
           <section class="cta">
-            <h1>NIFEMI</h1>
+            <h1 class="animate__animated animate__pulse animate__slow animate__infinite	infinite">NIFEMI</h1>
   
-            <p>Hi, my name is Oluwanifemi Rashid. <br> I am a Software Engineer, and I bring ideas to life with codes.</p>
+            <p id="typedtext"></p>
   
             <div class="btns">
               <a href="#portfolio" role="button">Checkout Portfolio</a>
@@ -72,14 +74,14 @@
           <h2>About</h2>
 
           <p>
-            Hey there, I'm Nifemi! I am software engineer in training at Stutern with a bold enthusiasm for technology.
+            Hey there, I'm Nifemi! I am a software engineer in training at Stutern with a bold enthusiasm for technology.
           </p>
 
-          <p>
+          <p class="animate__animated animate__slideInLeft animate__slow wow" data-wow-duration="3s">
             My pleasure lies in helping to alleviate problems that others encounter, and all thanks to coding and technology, this I do by creating well-adorned and functional web apps.
           </p>
 
-          <p>
+          <p class="animate__animated animate__slideInRight animate__slower wow" data-wow-duration="4s">
             As you'll find in my portfolio, I possess the knack of creating tidy UI layouts, whilst adhering to semantics and other industry best practices. Below, you'll find some of my favourite technologies:
           </p>
         </section>
@@ -193,6 +195,13 @@
 
       <p>Copyright &copy; 2021 All rights reserved | Made with &#10084;&#65039; by Nifemi</p>
     </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
   
 </html>
