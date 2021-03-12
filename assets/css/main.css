@@ -444,7 +444,7 @@ footer > p {
 /* - MD - min-width: 768px - */
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    font-size: 1.6rem;
+    font-size: 1.67rem;
   }
 
   .main_header {
@@ -459,8 +459,8 @@ footer > p {
 
   /* BRAND SIDE */
   .brand .logo {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
   }
 
@@ -473,7 +473,7 @@ footer > p {
 
   /* HEADER NAV */
   nav {
-    margin-top: 2em;
+    margin-top: 2.6em;
   }
 
   nav > .nav-list {
@@ -585,7 +585,7 @@ footer > p {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 2em 7em;
+    padding: 2em 3em;
   }
 
   .projects_brief > a {
@@ -675,7 +675,7 @@ footer > p {
   }
 
   .main_header {
-    height: 32vh;
+    height: 42vh;
   }
 
   .header_content_parent {
@@ -700,7 +700,7 @@ footer > p {
 
   /* HEADER NAV */
   nav {
-    margin-top: 2em;
+    margin-top: 2.5em;
   }
 
   nav > .nav-list {
@@ -743,7 +743,7 @@ footer > p {
   }
   
   .cta > h1 {
-    font-size: 3.8rem;
+    font-size: 3.9rem;
     letter-spacing: .2em;
     margin-bottom: 0;
   }
@@ -767,7 +767,7 @@ footer > p {
   /* ILLUSTRATOR IMG */
   #hero > figure {
     position: relative;
-    top: -70px;
+    top: -50px;
     right: -250px;
     width: 70%;
     opacity: .3;
@@ -811,7 +811,7 @@ footer > p {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 2em 7em;
+    padding: 2em 2em;
   }
 
   .projects_brief > a {
@@ -928,7 +928,7 @@ footer > p {
 
   /* HEADER NAV */
   nav {
-    margin-top: 1.5em;
+    margin-top: 2em;
   }
 
   nav > .nav-list {
@@ -1003,8 +1003,8 @@ footer > p {
   /* ILLUSTRATOR IMG */
   #hero > figure {
     position: relative;
-    top: -100px;
-    right: -200px;
+    top: -50px;
+    right: -180px;
     width: 83%;
     opacity: .3;
     overflow-x: hidden !important;
