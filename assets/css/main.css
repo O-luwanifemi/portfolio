@@ -178,6 +178,7 @@ main {
 #hero > figure {
   margin-right: -4em;
   width: 53%;
+  opacity: .7;
 }
 
 
