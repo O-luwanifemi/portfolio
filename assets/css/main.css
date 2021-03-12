@@ -675,7 +675,7 @@ footer > p {
   }
 
   .main_header {
-    height: 42vh;
+    height: 32vh;
   }
 
   .header_content_parent {
@@ -720,7 +720,7 @@ footer > p {
   .clip-path {
     position: relative;
     top: 0px;
-    left: -680px;
+    left: -700px;
   }
 
 
@@ -767,7 +767,7 @@ footer > p {
   /* ILLUSTRATOR IMG */
   #hero > figure {
     position: relative;
-    top: -80px;
+    top: -70px;
     right: -250px;
     width: 70%;
     opacity: .3;
@@ -903,7 +903,7 @@ footer > p {
   }
 
   .main_header {
-    height: 40vh;
+    height: 32vh;
   }
 
   .header_content_parent {
@@ -1047,7 +1047,7 @@ footer > p {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 2em 4em;
+    padding: 2em 2em;
   }
 
   .projects_brief > a {
