@@ -240,7 +240,7 @@ main {
   font-style: italic;
   word-spacing: .3em;
   padding-bottom: .3em;
-  border-bottom: 3px dotted rgba(255, 105, 180, 0.775);
+  border-bottom: 2px solid burlywood;
 }
 
 .projects_brief {
