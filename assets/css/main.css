@@ -975,12 +975,17 @@ footer > p {
     word-spacing: 0;
     font-size: 1.5rem;
     text-align: center;
+    height: 250px;
   }
   
   .cta > h1 {
     font-size: 3.5rem;
     letter-spacing: .2em;
     margin-bottom: 0;
+  }
+
+  .cta > p.strings {
+    height: 24%;
   }
   
   .btns > a,
