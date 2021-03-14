@@ -437,6 +437,33 @@ footer > p {
 
 
 
+/* BUTTON UP SECTION */
+.up-btn {
+  width: 40px;
+  height: 40px; 
+  padding: 5px; 
+  border-radius: 50%;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(82, 82, 55, 0.981);
+}
+
+.up-btn > img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* <----- MEDIA QUERIES -----> */
@@ -891,6 +918,13 @@ footer > p {
   footer > p {
     font-size: 1.35rem;
   }
+
+
+  /* Button up */
+  .up-btn {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 
@@ -1131,5 +1165,15 @@ footer > p {
   /* -- Copyright line -- */
   footer > p {
     font-size: 1.3rem;
+  }
+
+
+  /* Button up */
+  .up-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
